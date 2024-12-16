@@ -1,4 +1,4 @@
-package main.groovy.org.example
+package org.example
 
 import com.lesfurets.jenkins.unit.BasePipelineTest
 import org.junit.jupiter.api.Test

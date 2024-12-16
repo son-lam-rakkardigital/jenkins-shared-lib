@@ -1,4 +1,4 @@
-package main.groovy.org.example
+package org.example
 
 class MySharedLib {
     String greet(String name) {

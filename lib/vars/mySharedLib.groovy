@@ -1,4 +1,4 @@
-import main.groovy.org.example.MySharedLib
+import org.example.MySharedLib
 
 def greet(String name) {
     def lib = new MySharedLib()

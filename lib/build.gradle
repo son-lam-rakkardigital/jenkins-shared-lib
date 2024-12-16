@@ -55,3 +55,20 @@ java {
         languageVersion = JavaLanguageVersion.of(21)
     }
 }
+
+
+
+sourceSets {
+    main {
+        groovy {
+            srcDirs = ['src/main'] // Custom location for Groovy files
+        }
+
+    }
+    test {
+        groovy {
+            srcDirs = ['test'] // Custom location for test Groovy files
+        }
+
+    }
+}
