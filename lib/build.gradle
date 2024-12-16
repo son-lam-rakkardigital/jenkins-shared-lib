@@ -61,7 +61,7 @@ java {
 sourceSets {
     main {
         groovy {
-            srcDirs = ['src/main'] // Custom location for Groovy files
+            srcDirs = ['src'] // Custom location for Groovy files
         }
 
     }
